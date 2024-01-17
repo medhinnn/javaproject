@@ -19,9 +19,9 @@ public class Mavenproject1 {
         String[][] items = new String[2][6];
         String[][] sections = new String[2][4];
 
-        System.out.println("press1 for warehouse:");
-        System.out.println("press2 for section:");
-        System.out.println("press3 for item:");
+        System.out.println("press 1 for warehouse:");
+        System.out.println("press 2 for section:");
+        System.out.println("press 3 for item:");
         // int numm= Integer.parseInt(sc.nextLine());
         int primaryMenuChoice;
         System.out.println("command:");

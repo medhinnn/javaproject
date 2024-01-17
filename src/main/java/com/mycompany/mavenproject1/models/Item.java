@@ -8,9 +8,32 @@ package com.mycompany.mavenproject1.models;
  *
  * @author bingx
  */
-public class Item {
+public class Item extends StorageBin{
     
     public int itemId;
     public String name;
     public int descrption;
+    public Item(String name, int quantity) {
+        this.name = name;
+        this.quantity = quantity;
+      }
+    
+      public String getName() {
+        return name;
+      }
+    
+      public void setName(String name) {
+        this.name = name;
+      }
+    
+      public int getQuantity() {
+        return quantity;
+      }
+    
+      public int getDescrption() {
+        return descrption;
+      }
+      public void setQuantity(int quantity) {
+        this.quantity = quantity;
+      }
 }
